@@ -1,0 +1,50 @@
+/* Table container */
+.table-container {
+  margin: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Table header */
+th , tfoot td {
+  background-color: rgb(88, 204, 109);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Table body rows */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Table body rows on hover */
+tr:hover {
+  background-color: #f5f5f5;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.pagination button{
+  cursor: pointer;
+  width: 80px;
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  margin-top: 8px;
+  background: rgb(88, 204, 109);
+}
